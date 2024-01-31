@@ -1,0 +1,23 @@
+# Inicializamos la variable 'x' con el valor 22
+x = 22
+
+# Imprimimos la representación binaria de 'x' usando el método format()
+print("x      = {: >6b}".format(x))
+
+# Realizamos una operación AND a nivel de bits entre 'x' y 4, luego imprimimos el resultado en formatos decimal y binario
+print("x & 4  = {: >3d} = {: >6b}".format(x & 4, x & 4))
+
+# Realizamos una operación OR a nivel de bits entre 'x' y 1, luego imprimimos el resultado en formatos decimal y binario
+print("x | 1  = {: >3d} = {: >6b}".format(x | 1, x | 1))
+
+# Realizamos una operación XOR a nivel de bits entre 'x' y 4, luego imprimimos el resultado en formatos decimal y binario
+print("x ^ 4  = {: >3d} = {: >6b}".format(x ^ 4, x ^ 4))
+
+# Realizamos una operación NOT a nivel de bits sobre 'x', luego imprimimos el resultado en formatos decimal y binario
+print("~x     = {: >3d} = {: >6b}".format(~x, ~x))
+
+# Realizamos una operación de desplazamiento a la izquierda sobre 'x' en 1 bit, luego imprimimos el resultado en formatos decimal y binario
+print("x << 1 = {: >3d} = {: >6b}".format(x << 1, x << 1))
+
+# Realizamos una operación de desplazamiento a la derecha sobre 'x' en 2 bits, luego imprimimos el resultado en formatos decimal y binario
+print("x >> 2 = {: >3d} = {: >6b}".format(x >> 2, x >> 2))

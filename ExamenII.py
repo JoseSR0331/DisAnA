@@ -6,8 +6,8 @@ def generar_espiral(n):
     fila, columna = 0, 0
     direccion_actual = 0
     # Llenar la matriz con números en un patrón espiral
-    for i in range(1, n**2 + 1):
-        matriz[fila][columna] = i
+    for indx in range(1, n**2 + 1):
+        matriz[fila][columna] = indx
         siguiente_fila = fila + direccion[direccion_actual][0]
         siguiente_columna = columna + direccion[direccion_actual][1]
         # Verificar límites y si la siguiente celda está vacía
@@ -41,3 +41,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    #Jose Sanchez Rodriguez
+    #19/03/2024
+    #DisAnA
